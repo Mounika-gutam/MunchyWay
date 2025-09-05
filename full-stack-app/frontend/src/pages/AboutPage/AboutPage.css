@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+}
+.about-page-main-bg-container{
+    background-color: #222222;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-size: cover;
+}
+.story-heading{
+    color: #b58604;
+    font-size: 40px;
+    padding-left: 30px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 70px;
+}
+.story-description{
+    color: #ffff;
+    font-family: serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+.team-heading{
+    color: #b58604;
+    font-size: 35px;
+    padding-left: 30px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.team-mm-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px;
+}
+.team-mm-img{
+    height: 250px;
+    width: 200px;
+    border-radius: 3px;
+    margin: 20px;
+}
+.team-mm-img-reverse{
+    height: 250px;
+    width: 200px;
+    border-radius: 3px;
+    margin: 20px;
+    order: 1;
+}
+.team-mm-name{
+    color: #ffff;
+    font-size: 25px;
+    font-family: serif;
+    padding: 20px;
+}
+.team-mm-description{
+    color: #b58604;
+    font-size: 15px;
+    font-family: serif;
+    padding: 20px;
+}
+.ms-vs-heading{
+    color: #b58604;
+    font-size: 35px;
+    padding-left: 30px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.ms-vs-para{
+    color: #ffff;
+    font-size: 15px;
+    font-family: serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+.services-container{
+    background-color: #b58604;
+    min-height: 300px;
+    background-size: cover;
+    display: flex;
+}
+.service-heading{
+    color: #b58604;
+    font-size: 35px;
+    padding-left: 30px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.service-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.service-list-item{
+    background-color: #222222;
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5px;
+}
+.service-list-item-icon{
+    color: #b58604;
+    font-size: 20px;
+    margin: 5px;
+}
+.service-list-item-name{
+    color: #ffff;
+    font-size: 15px;
+    font-family: serif;
+    padding: 5px;
+}
+.service-list-item-description{
+    color: #ffff;
+    font-size: 10px;
+    font-family: serif;
+    padding: 5px;
+}
+.service-delivery-img{
+    height: 300px;
+    width: 400px;
+    border-radius: 3px;
+    margin: 20px;
+}
+.sp-menu-heading{
+    color: #b58604;
+    font-size: 35px;
+    padding-left: 30px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.customers-section-heading{
+    color: #b58604;
+    font-size: 35px;
+    padding-left: 30px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.customers-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.customers-img-container{
+    display: flex;
+    flex-direction: column;
+}
+.customer-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: #b58604 1px 1px 5px;
+    margin: 10px;
+}
+.review-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b58604;
+    border-radius: 10px;
+}
+.customer-review{
+    color: #ffff;
+    font-size: 15px;
+    font-family: serif;
+    padding: 10px;
+}
+.sp-menu-img-container{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.sp-menu-img{
+    height: 300px;
+    width: 240px;
+    border: #b58604 solid 1px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px #b58604;
+    transition: all 0.3s ease-in-out;
+}
+.sp-menu-content-hd{
+    color: #b58604;
+    font-size: 20px;
+    font-family: serif;
+    padding: 20px;
+}
+.sp-menu-content-para{
+    color: #ffff;
+    font-size: 15px;
+    font-family: serif;
+    padding: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 426px) {
+    .story-heading{
+        font-size: 40px;
+    }
+    .story-description{
+        font-size: 20px;
+    }
+    .team-heading{
+        font-size: 40px;
+    }
+    .sp-menu-img-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-list-item{
+        height: 160px;
+        width: 160px;
+        margin: 5px;
+    }
+    .ms-vs-heading{
+        font-size: 40px;
+    }
+    .ms-vs-para{
+        font-size: 20px;
+    }
+    .sp-menu-heading{
+        font-size: 40px;
+    }
+    .sp-menu-img-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sp-menu-img{
+        height: 300px;
+        width: 300px;
+        border: #b58604 solid 1px;
+        border-radius: 15px;
+        box-shadow: 1px 1px 5px #b58604;
+        transition: all 0.3s ease-in-out;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .story-heading{
+        font-size: 42px;
+    }
+    .story-description{
+        font-size: 20px;
+    }
+    .team-heading{
+        font-size: 42px;
+    }
+    .team-mm-name{
+        font-size: 28px;
+    }
+    .team-mm-description{
+        font-size: 18px;
+    }
+    .services-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .ms-vs-heading{
+        font-size: 42px;
+    }
+    .ms-vs-para{
+        font-size: 20px;
+    }
+    .sp-menu-heading{
+        font-size: 42px;
+    }
+    .sp-menu-img{
+        height: 250px;
+        width: 200px;
+    }
+}
+
+
+

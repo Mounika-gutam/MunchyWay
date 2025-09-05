@@ -1,0 +1,174 @@
+.contact-page-main-bg-container{
+    background-color: #222222;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-size: cover;
+}
+.contact-banner-img{
+    background-image: url("https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg");
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-banner-heading{
+    color: #b58604;
+    font-size: 40px;
+    font-style: oblique;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+.contact-form-heading{
+    color: #b58604;
+    font-size: 30px;
+    font-style: oblique;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Georgia' 'Times New Roman' Times, serif;
+}
+.contact-form-para{
+    color: #ffff;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Georgia' 'Times New Roman' Times, serif;
+}
+.contact-form-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+.contact-form-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.contact-label{
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'Georgia' 'Times New Roman' Times, serif;
+    padding: 10px;    
+}
+.contact-input{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #b58604;
+    background-color: #222222;
+    color: #ffff;
+    font-family: 'Georgia' 'Times New Roman' Times, serif;
+}
+.contact-input-textarea{
+    width: 540px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #b58604;
+    background-color: #222222;
+    color: #ffff;
+    font-family: 'Georgia' 'Times New Roman' Times, serif;
+}
+.contact-form-btn{
+    padding: 10px;
+    margin: 10px;
+    width: 180px;
+    border-radius: 5px;
+    border: 1px solid #b58604;
+    background-color: transparent;
+    color: #ffff;
+    font-family: 'Georgia' 'Times New Roman' Times, serif;
+}
+
+.contact-open-timings-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b58604;
+    height: 200px;
+    background-size: cover;
+    margin-top: 100px;
+}
+.contact-open-heading{
+    color: #ffff;
+    font-size: 30px;
+    font-family: 'Georgia' 'Times New Roman' Times, serif;
+    padding: 10px;
+}
+.contact-open-para{
+    color: #222222;
+    font-size: 15px;
+    font-family: 'Georgia' 'Times New Roman' Times, serif;
+    padding: 10px;
+    text-align: center;
+}
+.contact-open-timings{
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'Georgia' 'Times New Roman' Times, serif;
+    text-align: center;
+    padding: 2px;
+}
+.contact-info-heading{
+    color: #b58604;
+    font-size: 30px;
+    font-family: 'Georgia' 'Times New Roman' Times, serif;
+    padding-top: 100px;
+    text-align: center;
+}
+.contact-info-img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-top: 50px;
+}
+.contact-info-para{
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'Georgia' 'Times New Roman' Times, serif;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    .contact-form-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-form-inputs {
+        width: 100%;
+        align-items: start;
+    }
+    .contact-input {
+        width: 90%;
+    }
+    .contact-input-textarea {
+        width: 90%;
+    }
+    .contact-info-img {
+        width: 80%;
+        height: auto;
+    }
+    .contact-info-img{
+        margin-left: 10%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1025px){
+    .contact-input{
+        width: 300px;
+    }
+    .contact-input-textarea{
+        width: 650px;
+        margin-left: 20px;
+    }
+    .contact-form-btn{
+        width: 300px;
+    }
+}
