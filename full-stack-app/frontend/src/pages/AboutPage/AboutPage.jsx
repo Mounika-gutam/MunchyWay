@@ -109,8 +109,8 @@ const AboutPage = () => {
                         <img src="https://i.pinimg.com/736x/77/75/ba/7775ba3f8efe9d87a128f2a9108028f0.jpg" alt="customer-img" className="customer-image" />
                         <p className="customer-review">This food website is a hidden gem! The recipes are easy to follow, the photos are mouthwatering, and everything feels fresh and authentic. I love how it makes cooking fun and stress-free. Whether you're looking for quick meals or something special, you'll always find a tasty idea here.</p>
 
-                        <h3 style={{color: "#222222", fontSize: "15px"}}>Sonia Nancy</h3>
-                        <p style={{color: "#ffffff", fontSize: "15px"}}>Professional Trader</p>
+                        <h3 style={{color: "#222222", fontSize: "20px"}}>Sonia Nancy</h3>
+                        <p style={{color: "#ffffff", fontSize: "25px"}}>Professional Trader</p>
                     </div>
 
                     <div className="customers-img-container">

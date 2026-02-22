@@ -9,42 +9,46 @@
 }
 .time-content{
     margin: 15px;
+    padding: 20px;
 }
 
 .time-content-heading{
     color: #ffff;
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 10px;
 }
 .time-content-para{
     color: #222222;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 .menu-content{
     margin: 15px;
+    padding: 20px;
 }
 .menu-content-heading{
     color: #ffff;
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 10px;
 }
 .menu-content-para{
     color: #222222;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .latter-content{
     margin: 15px;
+    padding: 20px;
 }
 .latter-content-heading{
     color: #ffff;
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 10px;
 }
 .latter-content-para{
     color: #222222;
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 15px;
     margin-bottom: 10px;
 }

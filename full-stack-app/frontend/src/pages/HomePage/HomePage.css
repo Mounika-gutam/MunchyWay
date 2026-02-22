@@ -15,7 +15,7 @@
 }
 .home-page-top-heading{
     color: #b58604;
-    font-size: 35px;
+    font-size: 60px;
     padding-left: 30px;
     font-family: cursive;
     text-shadow: #b58604 1px 1px;
@@ -25,7 +25,7 @@
     font-family: serif;
     padding-left: 30px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
 }
  /*.image {
     position: absolute;
@@ -50,15 +50,15 @@
 } */
 
 .image{
-    width: 250px;
-    height: 250px;
+    width: 450px;
+    height: 450px;
     margin-top: 50px;
     margin-right: 50px;
 }
 
 .choose-us-heading{
     color: #b58604;
-    font-size: 35px;
+    font-size: 55px;
     font-family: cursive;
     padding-left: 30px;
     text-align: center;
@@ -68,7 +68,7 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -77,7 +77,7 @@
     flex-direction: column;
 }
 .choose-card-img{
-    width: 150px;
+    width: 200px;
     height: 200px;
 }
 .choose-card-content{
@@ -85,8 +85,8 @@
     flex-direction: column;
     justify-content: center;
     background-color: #b58604;
-    width: 150px;
-    height: 130px;
+    width: 200px;
+    height: 140px;
     border-radius: 0px;
     box-shadow: 0 0 10px #b58604;
     transition: 0.5s;
@@ -114,7 +114,7 @@
 }
 .choose-card-para{
     color: #ffff;
-    font-size: 12px;
+    font-size: 15px;
     font-family: serif;
     padding: 5px;
     text-align: start;
@@ -161,7 +161,7 @@
 }
 .od-nw-heading{
     color: #b58604;
-    font-size: 35px;
+    font-size: 55px;
     font-family: cursive;
     padding-left: 30px;
     text-align: center;
@@ -169,7 +169,7 @@
 }
 .od-nw-para{
     color: #ffff;
-    font-size: 15px;
+    font-size: 25px;
     font-family: serif;
     padding-left: 30px;
     padding-right: 30px;
@@ -186,24 +186,24 @@
     margin-top: 70px;
 }
 .chef-img{
-    height: 300px;
-    width: 250px;
+    height: 350px;
+    width: 300px;
 }
 .chef-heading{
     color: #ffff;
-    font-size: 35px;
+    font-size: 40px;
     font-family: cursive;
     padding-top: 50px;
 }
 .chef-name{
     color: #b58604;
-    font-size: 25px;
+    font-size: 35px;
     font-family: serif;
     padding-top: 15px;
 }
 .chef-description{
     color: #ffff;
-    font-size: 15px;
+    font-size: 25px;
     font-family: serif;
     padding-top: 15px;
 }
