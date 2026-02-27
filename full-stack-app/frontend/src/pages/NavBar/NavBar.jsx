@@ -22,9 +22,9 @@ const Navbar = () => {
       </button>
       <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
         <ul>
-          <li className='nav-names'><Link to="/" onClick={closeMenu}>Home</Link></li>
-          <li className='nav-names'><Link to="/about" onClick={closeMenu}>About</Link></li>
-          <li className='nav-names'><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
+          <li><Link to="/" onClick={closeMenu}>Home</Link></li>
+          <li><Link to="/about" onClick={closeMenu}>About</Link></li>
+          <li><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
         </ul>
       </div>
       <div className={`overlay ${isOpen ? 'active' : ''}`} onClick={closeMenu}></div>
