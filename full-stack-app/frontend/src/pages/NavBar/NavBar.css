@@ -76,7 +76,7 @@
   @media (max-width: 768px) {
     .toggle-button {
       display: flex;
-      background-color: #ffffff;
+      background-color: #b58604;
       border: none;
       margin-right: 30px;
       cursor: pointer;
@@ -87,18 +87,22 @@
       font-size: 20px;
       margin-right: 20px;
     }
-  
+    .nav-names{
+      font-size: 20px;
+      color: #f39c12; 
+    }
     .navbar-links {
       position: fixed;
       top: 0;
       left: 0;
       height: 100%;
       width: 250px;
-      background-color: #73605B;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
       transform: translateX(-100%);
       transition: transform 0.3s ease;
       z-index: 1000;
-      backdrop-filter: blur(20px);
     }
     .button-p{
       padding: 0px;
@@ -133,4 +137,3 @@
       z-index: 999;
     }
   }
-  
